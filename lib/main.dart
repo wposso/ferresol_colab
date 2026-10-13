@@ -1,3 +1,4 @@
+import 'package:ferresol/pantallas/login/login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true),
-      home: Home(),
+      home: LoginScreen(),
     );
   }
 }
